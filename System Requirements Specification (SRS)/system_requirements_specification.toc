@@ -1,0 +1,211 @@
+\contentsline {section}{\numberline {1}Product Concept}{5}
+\contentsline {subsection}{\numberline {1.1}Purpose and Use}{5}
+\contentsline {subsection}{\numberline {1.2}Intended Audience}{5}
+\contentsline {section}{\numberline {2}Product Description}{6}
+\contentsline {subsection}{\numberline {2.1}Features \& Functions}{6}
+\contentsline {subsection}{\numberline {2.2}External Inputs \& Outputs}{6}
+\contentsline {subsection}{\numberline {2.3}Product Interfaces}{6}
+\contentsline {section}{\numberline {3}Customer Requirements}{7}
+\contentsline {subsection}{\numberline {3.1}System}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Gaze Position Pointer}{7}
+\contentsline {paragraph}{\numberline {3.1.1.1}Description}{7}
+\contentsline {paragraph}{\numberline {3.1.1.2}Source}{7}
+\contentsline {paragraph}{\numberline {3.1.1.3}Constraints}{7}
+\contentsline {paragraph}{\numberline {3.1.1.4}Priority}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}Movement Filter}{7}
+\contentsline {paragraph}{\numberline {3.1.2.1}Description}{7}
+\contentsline {paragraph}{\numberline {3.1.2.2}Source}{8}
+\contentsline {paragraph}{\numberline {3.1.2.3}Priority}{8}
+\contentsline {subsubsection}{\numberline {3.1.3}Pointer Specification}{8}
+\contentsline {paragraph}{\numberline {3.1.3.1}Description}{8}
+\contentsline {paragraph}{\numberline {3.1.3.2}Source}{8}
+\contentsline {paragraph}{\numberline {3.1.3.3}Constraints}{8}
+\contentsline {paragraph}{\numberline {3.1.3.4}Priority}{8}
+\contentsline {subsubsection}{\numberline {3.1.4}Tracking Process}{8}
+\contentsline {paragraph}{\numberline {3.1.4.1}Description}{8}
+\contentsline {paragraph}{\numberline {3.1.4.2}Source}{8}
+\contentsline {paragraph}{\numberline {3.1.4.3}Constraints}{8}
+\contentsline {paragraph}{\numberline {3.1.4.4}Priority}{8}
+\contentsline {subsubsection}{\numberline {3.1.5}Background Icon}{8}
+\contentsline {paragraph}{\numberline {3.1.5.1}Description}{8}
+\contentsline {paragraph}{\numberline {3.1.5.2}Source}{9}
+\contentsline {paragraph}{\numberline {3.1.5.3}Priority}{9}
+\contentsline {subsubsection}{\numberline {3.1.6}Background Icon}{9}
+\contentsline {paragraph}{\numberline {3.1.6.1}Description}{9}
+\contentsline {paragraph}{\numberline {3.1.6.2}Source}{9}
+\contentsline {paragraph}{\numberline {3.1.6.3}Priority}{9}
+\contentsline {subsubsection}{\numberline {3.1.7}Menu Option}{9}
+\contentsline {paragraph}{\numberline {3.1.7.1}Description}{9}
+\contentsline {paragraph}{\numberline {3.1.7.2}Source}{9}
+\contentsline {paragraph}{\numberline {3.1.7.3}Priority}{9}
+\contentsline {subsubsection}{\numberline {3.1.8}Preferences}{9}
+\contentsline {paragraph}{\numberline {3.1.8.1}Description}{9}
+\contentsline {paragraph}{\numberline {3.1.8.2}Source}{9}
+\contentsline {paragraph}{\numberline {3.1.8.3}Priority}{9}
+\contentsline {subsubsection}{\numberline {3.1.9}Calibrate}{10}
+\contentsline {paragraph}{\numberline {3.1.9.1}Description}{10}
+\contentsline {paragraph}{\numberline {3.1.9.2}Source}{10}
+\contentsline {paragraph}{\numberline {3.1.9.3}Priority}{10}
+\contentsline {subsubsection}{\numberline {3.1.10}Always On/Off}{10}
+\contentsline {paragraph}{\numberline {3.1.10.1}Description}{10}
+\contentsline {paragraph}{\numberline {3.1.10.2}Source}{10}
+\contentsline {paragraph}{\numberline {3.1.10.3}Priority}{10}
+\contentsline {subsubsection}{\numberline {3.1.11}Tracking Calibration}{10}
+\contentsline {paragraph}{\numberline {3.1.11.1}Description}{10}
+\contentsline {paragraph}{\numberline {3.1.11.2}Source}{10}
+\contentsline {paragraph}{\numberline {3.1.11.3}Priority}{10}
+\contentsline {subsubsection}{\numberline {3.1.12}Tracking Canvas}{10}
+\contentsline {paragraph}{\numberline {3.1.12.1}Description}{10}
+\contentsline {paragraph}{\numberline {3.1.12.2}Source}{10}
+\contentsline {paragraph}{\numberline {3.1.12.3}Priority}{11}
+\contentsline {subsubsection}{\numberline {3.1.13}Calibrate Process}{11}
+\contentsline {paragraph}{\numberline {3.1.13.1}Description}{11}
+\contentsline {paragraph}{\numberline {3.1.13.2}Source}{11}
+\contentsline {paragraph}{\numberline {3.1.13.3}Constraints}{11}
+\contentsline {paragraph}{\numberline {3.1.13.4}Priority}{11}
+\contentsline {subsubsection}{\numberline {3.1.14}Pointer Click}{11}
+\contentsline {paragraph}{\numberline {3.1.14.1}Description}{11}
+\contentsline {paragraph}{\numberline {3.1.14.2}Source}{11}
+\contentsline {paragraph}{\numberline {3.1.14.3}Priority}{11}
+\contentsline {subsubsection}{\numberline {3.1.15}Track Mode}{11}
+\contentsline {paragraph}{\numberline {3.1.15.1}Description}{11}
+\contentsline {paragraph}{\numberline {3.1.15.2}Source}{11}
+\contentsline {paragraph}{\numberline {3.1.15.3}Priority}{11}
+\contentsline {subsubsection}{\numberline {3.1.16}Always On/Off Tracking}{12}
+\contentsline {paragraph}{\numberline {3.1.16.1}Description}{12}
+\contentsline {paragraph}{\numberline {3.1.16.2}Source}{12}
+\contentsline {paragraph}{\numberline {3.1.16.3}Priority}{12}
+\contentsline {subsubsection}{\numberline {3.1.17}Hotkey Tracking}{12}
+\contentsline {paragraph}{\numberline {3.1.17.1}Description}{12}
+\contentsline {paragraph}{\numberline {3.1.17.2}Source}{12}
+\contentsline {paragraph}{\numberline {3.1.17.3}Priority}{12}
+\contentsline {subsubsection}{\numberline {3.1.18}Hotkey}{12}
+\contentsline {paragraph}{\numberline {3.1.18.1}Description}{12}
+\contentsline {paragraph}{\numberline {3.1.18.2}Source}{12}
+\contentsline {paragraph}{\numberline {3.1.18.3}Priority}{12}
+\contentsline {subsubsection}{\numberline {3.1.19}Users}{12}
+\contentsline {paragraph}{\numberline {3.1.19.1}Description}{12}
+\contentsline {paragraph}{\numberline {3.1.19.2}Source}{13}
+\contentsline {paragraph}{\numberline {3.1.19.3}Priority}{13}
+\contentsline {subsection}{\numberline {3.2}Viewer}{13}
+\contentsline {subsubsection}{\numberline {3.2.1}Open Viewer}{13}
+\contentsline {paragraph}{\numberline {3.2.1.1}Description}{13}
+\contentsline {paragraph}{\numberline {3.2.1.2}Source}{13}
+\contentsline {paragraph}{\numberline {3.2.1.3}Priority}{13}
+\contentsline {subsubsection}{\numberline {3.2.2}Tracking Mesh View}{13}
+\contentsline {paragraph}{\numberline {3.2.2.1}Description}{13}
+\contentsline {paragraph}{\numberline {3.2.2.2}Source}{13}
+\contentsline {paragraph}{\numberline {3.2.2.3}Priority}{13}
+\contentsline {subsubsection}{\numberline {3.2.3}RGB View}{13}
+\contentsline {paragraph}{\numberline {3.2.3.1}Description}{13}
+\contentsline {paragraph}{\numberline {3.2.3.2}Source}{13}
+\contentsline {paragraph}{\numberline {3.2.3.3}Constraints}{13}
+\contentsline {paragraph}{\numberline {3.2.3.4}Priority}{14}
+\contentsline {subsubsection}{\numberline {3.2.4}IR View}{14}
+\contentsline {paragraph}{\numberline {3.2.4.1}Description}{14}
+\contentsline {paragraph}{\numberline {3.2.4.2}Source}{14}
+\contentsline {paragraph}{\numberline {3.2.4.3}Constraints}{14}
+\contentsline {paragraph}{\numberline {3.2.4.4}Priority}{14}
+\contentsline {subsubsection}{\numberline {3.2.5}Depth View}{14}
+\contentsline {paragraph}{\numberline {3.2.5.1}Description}{14}
+\contentsline {paragraph}{\numberline {3.2.5.2}Source}{14}
+\contentsline {paragraph}{\numberline {3.2.5.3}Constraints}{14}
+\contentsline {paragraph}{\numberline {3.2.5.4}Priority}{14}
+\contentsline {subsection}{\numberline {3.3}API}{14}
+\contentsline {subsubsection}{\numberline {3.3.1}Interface}{14}
+\contentsline {paragraph}{\numberline {3.3.1.1}Description}{14}
+\contentsline {paragraph}{\numberline {3.3.1.2}Source}{14}
+\contentsline {paragraph}{\numberline {3.3.1.3}Priority}{14}
+\contentsline {subsubsection}{\numberline {3.3.2}getPointerPosition()}{15}
+\contentsline {paragraph}{\numberline {3.3.2.1}Description}{15}
+\contentsline {paragraph}{\numberline {3.3.2.2}Source}{15}
+\contentsline {paragraph}{\numberline {3.3.2.3}Priority}{15}
+\contentsline {subsubsection}{\numberline {3.3.3}setHotkey(Macro key\_)}{15}
+\contentsline {paragraph}{\numberline {3.3.3.1}Description}{15}
+\contentsline {paragraph}{\numberline {3.3.3.2}Source}{15}
+\contentsline {paragraph}{\numberline {3.3.3.3}Priority}{15}
+\contentsline {subsubsection}{\numberline {3.3.4}toggleProcess(boolean process\_)}{15}
+\contentsline {paragraph}{\numberline {3.3.4.1}Description}{15}
+\contentsline {paragraph}{\numberline {3.3.4.2}Source}{15}
+\contentsline {paragraph}{\numberline {3.3.4.3}Priority}{15}
+\contentsline {subsubsection}{\numberline {3.3.5}toggletrack(boolean track)}{15}
+\contentsline {paragraph}{\numberline {3.3.5.1}Description}{15}
+\contentsline {paragraph}{\numberline {3.3.5.2}Source}{15}
+\contentsline {paragraph}{\numberline {3.3.5.3}Priority}{15}
+\contentsline {section}{\numberline {4}Packaging Requirements}{16}
+\contentsline {subsection}{\numberline {4.1}Source Code}{16}
+\contentsline {subsubsection}{\numberline {4.1.1}Description}{16}
+\contentsline {subsubsection}{\numberline {4.1.2}Source}{16}
+\contentsline {subsubsection}{\numberline {4.1.3}Priority}{16}
+\contentsline {subsection}{\numberline {4.2}Binaries}{16}
+\contentsline {subsubsection}{\numberline {4.2.1}Description}{16}
+\contentsline {subsubsection}{\numberline {4.2.2}Source}{16}
+\contentsline {subsubsection}{\numberline {4.2.3}Priority}{16}
+\contentsline {subsection}{\numberline {4.3}Zip File}{16}
+\contentsline {subsubsection}{\numberline {4.3.1}Description}{16}
+\contentsline {subsubsection}{\numberline {4.3.2}Source}{16}
+\contentsline {subsubsection}{\numberline {4.3.3}Priority}{16}
+\contentsline {subsection}{\numberline {4.4}Intel Real Sense Camera}{16}
+\contentsline {subsubsection}{\numberline {4.4.1}Description}{16}
+\contentsline {subsubsection}{\numberline {4.4.2}Source}{16}
+\contentsline {subsubsection}{\numberline {4.4.3}Priority}{17}
+\contentsline {section}{\numberline {5}Safety Requirements}{18}
+\contentsline {subsection}{\numberline {5.1}Laser}{18}
+\contentsline {subsubsection}{\numberline {5.1.1}Description}{18}
+\contentsline {subsubsection}{\numberline {5.1.2}Source}{18}
+\contentsline {subsubsection}{\numberline {5.1.3}Standards}{18}
+\contentsline {subsubsection}{\numberline {5.1.4}Priority}{18}
+\contentsline {subsection}{\numberline {5.2}Power Source}{18}
+\contentsline {subsubsection}{\numberline {5.2.1}Description}{18}
+\contentsline {subsubsection}{\numberline {5.2.2}Source}{18}
+\contentsline {subsubsection}{\numberline {5.2.3}Priority}{18}
+\contentsline {subsection}{\numberline {5.3}Weight and Size}{18}
+\contentsline {subsubsection}{\numberline {5.3.1}Description}{18}
+\contentsline {subsubsection}{\numberline {5.3.2}Source}{18}
+\contentsline {subsubsection}{\numberline {5.3.3}Priority}{18}
+\contentsline {section}{\numberline {6}Maintenance \& Support Requirements}{19}
+\contentsline {subsection}{\numberline {6.1}Maintenance}{19}
+\contentsline {subsubsection}{\numberline {6.1.1}Description}{19}
+\contentsline {subsubsection}{\numberline {6.1.2}Source}{19}
+\contentsline {subsubsection}{\numberline {6.1.3}Constraints}{19}
+\contentsline {subsubsection}{\numberline {6.1.4}Priority}{19}
+\contentsline {subsection}{\numberline {6.2}Support}{19}
+\contentsline {subsubsection}{\numberline {6.2.1}Description}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}Source}{19}
+\contentsline {subsubsection}{\numberline {6.2.3}Constraints}{19}
+\contentsline {subsubsection}{\numberline {6.2.4}Priority}{19}
+\contentsline {section}{\numberline {7}Other Requirements}{20}
+\contentsline {subsection}{\numberline {7.1}Processor}{20}
+\contentsline {subsubsection}{\numberline {7.1.1}Description}{20}
+\contentsline {subsubsection}{\numberline {7.1.2}Source}{20}
+\contentsline {subsubsection}{\numberline {7.1.3}Priority}{20}
+\contentsline {subsection}{\numberline {7.2}Graphics Processor}{20}
+\contentsline {subsubsection}{\numberline {7.2.1}Description}{20}
+\contentsline {subsubsection}{\numberline {7.2.2}Source}{20}
+\contentsline {subsubsection}{\numberline {7.2.3}Priority}{20}
+\contentsline {subsection}{\numberline {7.3}Connection Interface}{20}
+\contentsline {subsubsection}{\numberline {7.3.1}Description}{20}
+\contentsline {subsubsection}{\numberline {7.3.2}Source}{20}
+\contentsline {subsubsection}{\numberline {7.3.3}Priority}{20}
+\contentsline {subsection}{\numberline {7.4}Operating System}{20}
+\contentsline {subsubsection}{\numberline {7.4.1}Description}{20}
+\contentsline {subsubsection}{\numberline {7.4.2}Source}{20}
+\contentsline {subsubsection}{\numberline {7.4.3}Priority}{21}
+\contentsline {section}{\numberline {8}Future Items}{22}
+\contentsline {subsubsection}{\numberline {8.0.1}Calibrate Process}{22}
+\contentsline {paragraph}{\numberline {8.0.1.1}Description}{22}
+\contentsline {paragraph}{\numberline {8.0.1.2}Source}{22}
+\contentsline {paragraph}{\numberline {8.0.1.3}Constraints}{22}
+\contentsline {paragraph}{\numberline {8.0.1.4}Priority}{22}
+\contentsline {subsubsection}{\numberline {8.0.2}setHotkey(Macro key\_)}{22}
+\contentsline {paragraph}{\numberline {8.0.2.1}Description}{22}
+\contentsline {paragraph}{\numberline {8.0.2.2}Source}{22}
+\contentsline {paragraph}{\numberline {8.0.2.3}Priority}{22}
+\contentsline {subsubsection}{\numberline {8.0.3}toggleProcess(boolean process\_)}{22}
+\contentsline {paragraph}{\numberline {8.0.3.1}Description}{22}
+\contentsline {paragraph}{\numberline {8.0.3.2}Source}{22}
+\contentsline {paragraph}{\numberline {8.0.3.3}Priority}{22}
+\contentsline {subsubsection}{\numberline {8.0.4}toggletrack(boolean track)}{23}
+\contentsline {paragraph}{\numberline {8.0.4.1}Description}{23}
+\contentsline {paragraph}{\numberline {8.0.4.2}Source}{23}
+\contentsline {paragraph}{\numberline {8.0.4.3}Priority}{23}

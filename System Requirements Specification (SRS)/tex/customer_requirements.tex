@@ -1,0 +1,231 @@
+
+Requirements defined by the Team that describe the System, Viewer and API of the project.  The System handles the Tracking Process given a raw set of input depth data to create direction vectors for a look at point based upon the distance from the device.  It then shall place a marker on screen in the Tracking Canvas window.  The Viewer handles the raw streams of video and a Mesh view displaying the raw look at vectors.  The API shall act as an interface for developers to reference in projects.
+\subsection{System}
+\subsubsection{Gaze Position Pointer}
+\paragraph{Description}
+The system shall draw a pointer on screen to represent the look at location of the user.  The gaze position is then updated in real time as the user changes the look at location.  The pointer shall stay fixed on the edge of screen if gaze position is calculated outside of Tracking Canvas.
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+The refresh rate must adhere to a 30Hz location cycle, however, the pointer may be drawn at 60 Hz
+\paragraph{Priority}
+Critical
+\subsubsection{Movement Filter}
+\paragraph{Description}
+The system shall filter out any movement noise or jitter in Tracking Process to have a steady tracking vector.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{Pointer Specification}
+\paragraph{Description}
+The pointer shall be defined in Process as a small circular marker.  It shall be approximately 10em in diameter and be colored green for visibility.
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Pointer Dimensions: 10em Diameter, Pointer Color: \#CCFFCC (Green)
+\paragraph{Priority}
+Moderate
+\subsubsection{Tracking Process}
+\paragraph{Description}
+The Tracking process shall be a process that runs in the background to handle the gaze position based upon the raw data from the device.  Once a direction vector is calculated from the device data a position shall be calculated based on distance from device. (Diagram)
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Position must be in an (x, y) format
+\paragraph{Priority}
+High
+\subsubsection{Background Icon}
+\paragraph{Description}
+The system application shall have a background icon that will be displayed in the background tasks hotbar. (Figure)
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Low
+\subsubsection{Background Icon}
+\paragraph{Description}
+The system application shall have a background icon that will be displayed in the background tasks hotbar. (Figure)
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Low
+\subsubsection{Menu Option}
+\paragraph{Description}
+The background application shall have a menu options. Once a user right clicks the background icon a menu options shall appear. It shall have the options: "Always On/Off", "Calibrate", "Open Viewer" and "Preferences"
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Preferences}
+\paragraph{Description}
+The menu options shall have a Preferences option that shall open a display that has the option to set a Hotkey/Macro command, turn off auto calibrate and set default On/Off.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Low
+\subsubsection{Calibrate}
+\paragraph{Description}
+The Menu Options shall have a Calibrate option that shall start the Tracking Calibration to create a the Tracking Canvas dimensions.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{Always On/Off}
+\paragraph{Description}
+The Menu Options shall have a Always On/Off option.  The option shall be set by default by the Preferences option.  It shall display a check mark once it is toggled on
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Tracking Calibration}
+\paragraph{Description}
+The system shall have Tracking Calibration.  It shall display an identification marker to determine, center of screen, left edge, right edge, top edge and bottom edge
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{Tracking Canvas}
+\paragraph{Description}
+The calibration shall calibrate to the size of the view monitor.  The Tracking Canvas shall be created once the calibration is complete.  It shall contain the dimensions of the monitor being used and only allow for the Pointer to be contained within the canvas.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{Calibrate Process}
+\paragraph{Description}
+The system shall continuously calibrate itself while in use.  It shall record and maintain a data set of the min and max for both x and y.  It shall use clustering to induce a central point and FOV(Field of View) to be updated to Tracking Process.  Any outlier data will be omitted.
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Calibration Process shall run at 5Hz
+\paragraph{Priority}
+Future
+\subsubsection{Pointer Click}
+\paragraph{Description}
+The system shall handle onclick events once a user commands the hotkey.  An action will be interpreted by the object clicked
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Low
+\subsubsection{Track Mode}
+\paragraph{Description}
+The system shall have a Track Mode to be handled by the Tracking Process.  It shall set a flag to determine if Always On tracking or if Hotkey Tracking
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Always On/Off Tracking}
+\paragraph{Description}
+The "Always On" shall track while the application is running.  If the Always On track is toggled on the Tracking Process shall be running to process direction vectors of eye and face. It shall process the given values to display the Gaze Pointer within the Tracking Canvas
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Hotkey Tracking}
+\paragraph{Description}
+The "Hotkey" track option shall be toggled once hotkey is engaged.  If the Hotkey is pressed down defined by the Preferences option, the Tracking process shall be running to process direction vectors of eye and face. It shall process the given values to display the Gaze Pointer within the Tracking Canvas. On button up it shall perform a click event at the Gaze Pointers position.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Hotkey}
+\paragraph{Description}
+The track option for hotkey shall have the option to enter a user defined hotkey in the Preferences option.
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Moderate
+\subsubsection{Users}
+\paragraph{Description}
+The system shall be optimal for a single user.  If there are multiple users in the scene, the system shall track the first user registered
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsection{Viewer}
+\subsubsection{Open Viewer}
+\paragraph{Description}
+The menu options shall have a Open Viewer option that shall open a display that has multiple view ports for the Tracking Mesh, RGB View, IR View and Depth View.  It shall run as a separate process called the Viewer Process
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{Tracking Mesh View}
+\paragraph{Description}
+The viewer application shall have a Tracking Mesh view that shall display the generated face plane, the norm of the face place as the face direction vector and the direction vector of the eye position. (Figure)
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{RGB View}
+\paragraph{Description}
+The viewer application shall have an RGB view that displays the raw 1920x1080 camera video
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Must run at least 30 frames
+\paragraph{Priority}
+High
+\subsubsection{IR View}
+\paragraph{Description}
+The viewer application shall have an IR view that displays the raw 640x480 IR video
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Must run at least 30 frames
+\paragraph{Priority}
+High
+\subsubsection{Depth View}
+\paragraph{Description}
+The viewer application shall have a Depth view that displays the raw 640x480 Depth video
+\paragraph{Source}
+Team
+\paragraph{Constraints}
+Must run at least 30 frames
+\paragraph{Priority}
+High
+\subsection{API}
+\subsubsection{Interface}
+\paragraph{Description}
+The system shall have a package library that can be imported to any C\# program. The API shall allow for a developer to have access to the Pointer Position, Setting Hotkey, Toggle Process and Toggle Track
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{getPointerPosition()}
+\paragraph{Description}
+The API shall have an interface to return pointer (x, y)
+\paragraph{Source}
+Team
+\paragraph{Priority}
+High
+\subsubsection{setHotkey(Macro key\_)}
+\paragraph{Description}
+The API shall have an interface to set a hotkey/macro
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Future
+\subsubsection{toggleProcess(boolean process\_)}
+\paragraph{Description}
+The API shall have an interface to toggle process on/off
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Future
+\subsubsection{toggletrack(boolean track)}
+\paragraph{Description}
+The API shall have an interface to toggle tracking
+\paragraph{Source}
+Team
+\paragraph{Priority}
+Future
+
+
+
+
+
+
+
+
+
