@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  30 JUL 2016 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.2)  2 OCT 2016 21:50
 entering extended mode
 **./system_requirements_specification.tex
 (system_requirements_specification.tex
-LaTeX2e <2016/03/31> patch level 1
+LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -53,30 +53,30 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mathdesign.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mathdesign.sty"
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.cfg)
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.cfg")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.sty"
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdfont.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdfont.def"
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdsffont.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdsffont.def"
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdttfont.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdttfont.def"
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup4
@@ -144,7 +144,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
 .
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\t1mdbch.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\t1mdbch.fd"
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -161,11 +161,12 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip43
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
@@ -177,7 +178,7 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
@@ -234,7 +235,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -242,8 +243,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -263,12 +264,12 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\hyphenat\hyphenat.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.sty"
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language75
 LaTeX Info: Redefining \_ on input line 43.
@@ -277,7 +278,7 @@ LaTeX Info: Redefining \_ on input line 43.
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -298,7 +299,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks27
 \@floatcapt=\box29
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip47
 \subfigcapskip=\skip48
@@ -314,15 +315,15 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip53
@@ -334,7 +335,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen127
 \titlewidthfirst=\dimen128
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\vhistory\vhistory.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\vhistory\vhistory.sty"
 Package: vhistory 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\ltxtable.sty"
@@ -377,7 +378,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count114
 \LT@p@ftn=\toks31
 ))
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\vhistory\sets.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\vhistory\sets.sty"
 Package: sets 
 \c@s@tlength=\count115
 )
@@ -385,7 +386,8 @@ Reading file system_requirements_specification.hst...
 (system_requirements_specification.hst)
 \vh@verfile=\write3
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip61
 \f@ncyO@elh=\skip62
 \f@ncyO@erh=\skip63
@@ -396,10 +398,10 @@ Reading file system_requirements_specification.hst...
 \f@ncyO@olf=\skip68
 \f@ncyO@orf=\skip69
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\abstract\abstract.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip70
 \absleftindent=\skip71
@@ -425,14 +427,14 @@ LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 72.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 72.
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 72.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 72.
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 72.
@@ -471,7 +473,7 @@ LaTeX Font Info:    ... okay on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count116
 \scratchdimen=\dimen137
@@ -552,8 +554,8 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 8.64006pt on input line 87.
  [1
 
-{C:/Users/Neil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/pro
-ject-iris.png>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/project-iris.png
+>]
 \openout3 = `system_requirements_specification.ver'.
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -565,23 +567,21 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
 \vh@hstfile=\write4
 \openout4 = `system_requirements_specification.hst'.
 
-
-(system_requirements_specification.ver) (system_requirements_specification.ver)
-(system_requirements_specification.ver
+ (system_requirements_specification.ver)
+(system_requirements_specification.ver) (system_requirements_specification.ver
 Overfull \hbox (10.7121pt too wide) in paragraph at lines 8--9
 []|\T1/mdbch/m/n/10.95 NS\TD\MZ\SU\TM| 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 10
+Underfull \vbox (badness 10000) detected at line 14
  []
 
 ) [2] (system_requirements_specification.toc
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ot1mdbch.fd"
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -593,8 +593,7 @@ LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd"
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
@@ -606,8 +605,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd"
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -619,8 +617,7 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omxmdbch.fd"
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
@@ -638,8 +635,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd"
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -651,8 +647,7 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 2.
 
 
-(C:\Users\Neil\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.f
-d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd"
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -665,7 +660,8 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 \tf@toc=\write5
 \openout5 = `system_requirements_specification.toc'.
 
- [3] (system_requirements_specification.lof)
+
+[3] (system_requirements_specification.lof)
 \tf@lof=\write6
 \openout6 = `system_requirements_specification.lof'.
 
@@ -716,20 +712,20 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 AED: lastpage setting LastPage
 [24] (system_requirements_specification.aux) ) 
 Here is how much of TeX's memory you used:
- 6056 strings out of 493335
- 84406 string characters out of 3136684
- 150337 words of memory out of 3000000
- 9361 multiletter control sequences out of 15000+200000
+ 6060 strings out of 493334
+ 84025 string characters out of 3136672
+ 150483 words of memory out of 3000000
+ 9366 multiletter control sequences out of 15000+200000
  60304 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,43p,664b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,43p,747b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.
-9/fonts/enc/dvips/fontname/texnansi.enc}<C:/Users/Neil/AppData/Roaming/MiKTeX/2
-.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Neil/AppData/Roaming/MiKTe
-X/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Neil/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb8t.pfb><C:/Users/Neil/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb>
-Output written on system_requirements_specification.pdf (24 pages, 6186875 byte
+9/fonts/enc/dvips/fontname/texnansi.enc}<C:/Program Files (x86)/MiKTeX 2.9//fon
+ts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/bitstrea/charter/bchr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/mathdesign/mdbch/md-chb8t.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/m
+athdesign/mdbch/md-chr8t.pfb>
+Output written on system_requirements_specification.pdf (24 pages, 6187186 byte
 s).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
