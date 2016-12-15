@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Project Iris</title>
+        <meta name="description" content="This is the webpage made from Project Iris' final demo board">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <img class="logo" src="img/logo.png">
+
+        <h1>Project Iris</h1>
+        
+        <p>Neil Simmons, Tyler D’Spain, Matthew Zielke, Syed Uddin, Tony McDonald</p>
+        
+        <div class="column">
+            <div class="cell">
+                <h2>Overview</h2>
+                
+                <p>In a world of mice and keyboards we believe a PC input peripheral device is missing, and that device is a 3D gaze tracker. The most expressive part of a human's anatomy is their eyes. They can convey surprise, sadness, joy, and love. With the Project Iris we aim to help them add a new dimension to their capabilities, and in turn add new capability to the PC as well. This will not only enable new user experiences for PCs and software developers, but also enable PC experiences for the disabled and handicapped as well. A group that can find it difficult to interact with current PC technology.</p>
+                
+                <p>The new experiences created may give greater control in a video game by allowing a user to make selections with their eyes, without shifting hands off the keyboard or changing the mouse's focus. We envision our solution enabling artist to visually switch between tools in paint programs by allowing them to look at the tool they wish to use, rather than taking their hand away from their artwork. For a musician, switching backing tracks or audio effects between songs is currently clunky, but we believe by using their vision they can adjust their tools, without taking their hands off their instruments. More importantly we believe that we don't know all the possibilities this software may have, which is why we want it to be open source, to allow others with a vision to expand upon ours.</p>
+
+            </div>
+            <div class="cell">
+                <h2>Mission</h2>
+                
+                <p>To design an open source 3D gaze tracking software solution using off the shelf, fully integrated hardware. We will design this solution using the Intel RealSense SR300 camera. It combines a traditional 2D video camera and a 3D infrared camera designed to work in the shorter ranges expected with PC use. In addition, the Intel RealSense cameras are already integrated into some laptops, allowing our solution to be more readily adopted.</p>
+                
+                <p>We will design the system to operate as a visual mouse like virtual device, enabling either the user's eyes to act as a pseudo mouse input, or to act as a selection device that leaves the traditional mouse free for normal use. We will accomplish this using the 3D data provided by the RealSense camera in conjunction with its 2D camera data. Mathematical operations will be performed to isolate a user's eyes and track them in relation to the camera that is setting near the screen. Once calibrated the combination of 3D and 2D inputs will allow the software to follow the users gaze, thereby enabling the input functionality of the software.</p>
+            
+            </div>
+            <div class="cell">
+                <h2>Success Criteria</h2>
+                
+                <p>For Project Iris to be considered a success it must be complete and working by The end of the 2016 fall semester.  The camera will track the gaze of the eye and a user will have the ability to view the position of their eyes visually on screen.  The project will make available an API where-by developers may integrate eye position data into their projects. The project will also provide a toggle via API calls to enable on-screen display of the current eye position. Additionally a calibration utility and a camera output data visualization utility will be provided.</p>
+            
+            </div>
+        </div>
+        <div class="column">
+            <div class="cell">
+                <h2>Hardware</h2>
+                
+                <ul>
+                    <li>PC
+                    <ul>
+                        <li>6th generation Core i5</li>
+                        <li>OpenCL 1.2 compliant video card</li>
+                    </ul>
+                    </li>
+                    <li>Intel RealSense SR300</li>
+                </ul>
+
+            </div>
+            <div class="cell">
+                <h2>Software</h2>
+                
+                <ul>
+                    <li>Intel RealSense SDK</li>
+                    <li>Windows 10</li>
+                    <li>Dasher</li>
+                </ul>
+            
+            </div>
+            <div class="cell">
+                <h2>Block Diagram</h2>
+                
+                <img src="img/block-diagram.png">
+            
+            </div>     
+            <div class="cell">
+                <h2>State Diagram</h2>
+                
+                <img src="img/state-diagram.png">
+            </div>     
+        </div>
+        <div class="column">
+            <div class="cell">
+                <h2>System Architecture</h2>
+                
+                <img src="img/system-architecture.png">
+            </div>
+            <div class="cell">
+                <h2>Lessons Learned</h2>
+                <ul>
+                    <li>Time management</li>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Project documentation 
+                    <ul>
+                        <li>Engineering notebooks</li>
+                        <li>Project requirements</li>
+                        <li>System architecture</li>
+                        <li>Design documents</li>
+                    </ul>
+                    </li>
+                    <li>Agile allowed us a lot of flexibility</li>
+                    <li>Research</li>
+                </ul>
+                
+            </div>
+            <div class="cell">
+                <h2>Future Work</h2>
+                
+                <ul>
+                    <li>Background Service</li>
+                    <li>Hotkey Toggle</li>
+                    <li>Algorithm Refinement</li>
+                </ul>
+            
+            </div>
+        </div>
+
+       
+    </body>
+</html>
