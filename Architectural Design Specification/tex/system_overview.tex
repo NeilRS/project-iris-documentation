@@ -1,16 +1,19 @@
-This section should describe the overall structure of your software system. Think of it as the strategy for how you will build the system. An architectural "layer" is the top-level logical view, or an abstraction, of your design. Layers should be composed of related elements of similar capabilities, and should be highly independent of other layers, but should have very clearly defined interfaces and interactions with other layers. Each layer should be identified individually and should be unique as to its function and purpose within the system. This section should also contain the high-level block diagram of the layers, as shown in the example below, as well as detailed descriptions of the functions of each layer.
+Project Iris will consist of four major layers. Tracking, Viewer, Calibration, and the Device. 
 
 \begin{figure}[h!]
 	\centering
- 	\includegraphics[width=0.60\textwidth]{images/layers}
- \caption{A simple architectural layer diagram}
+ 	\includegraphics[width=0.60\textwidth]{images/system-architecture}
+ \caption{Project Iris architectural layer diagram}
 \end{figure}
 
-\subsection{Layer X Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Tracking Description}
+The tracking layer is the most important layer of the architecture. It is where the most important work will be done for Project Iris. This layer consist of the tracking process, which determines where on the screen the software believes the gaze is located. This layer uses calibration data from the calibration layer, data from the device layer, and receives commands from the interface (i.e. start/stop).
 
-\subsection{Layer Y Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Viewer Description}
+The viewer layer provides a GUI for the user, and a way to control Project Iris. It receives camera data trough the tracking layer and can display it for the user.
 
-\subsection{Layer Z Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+\subsection{Calibration Description}
+The calibration layer outputs data to the screen with a UI and uses data from the device layer to build a calibration profile of a user. This calibration data is the given to the tracking layer.
+
+\subsection{Device Description}
+The device layer consist of the drivers for the SR300. This layer is the simplest as its interactions with the other layers are purely to send its data to them. 
