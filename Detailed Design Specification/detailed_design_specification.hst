@@ -1,0 +1,3 @@
+\def \vhCurrentVersion {0.1}
+\def \vhCurrentDate {12.14.2016}
+\newsetsimple \vhAllAuthorsSet {NS\textbackslash {}TS\textbackslash {}MZ\textbackslash {}SU\textbackslash {}TM}
